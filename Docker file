@@ -1,0 +1,5 @@
+FROM Inginx
+MAINTAINER Elinaa
+LABEL Basic html code deployment
+COPY index.html /user/share/nginx/html/
+EXPOSE 80
